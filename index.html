@@ -1,113 +1,127 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Nill Hashemi</title>
 
 <style>
 
-body{
-    background:#f7f7f4;
-    color:#111;
-    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
-    max-width:1000px;
-    margin:0 auto;
-    padding:80px 40px;
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f2;
+    color: #111;
+    margin: 0;
+    padding: 40px;
+    max-width: 1200px;
 }
 
-nav{
-    margin-bottom:80px;
+nav {
+    margin-bottom: 80px;
 }
 
-nav a{
-    text-decoration:none;
-    color:#111;
-    margin-right:24px;
-    font-size:1rem;
+nav a {
+    text-decoration: none;
+    color: #111;
+    margin-right: 20px;
+    font-size: 18px;
 }
 
-nav a:hover{
-    opacity:0.5;
+nav a:hover {
+    opacity: 0.5;
 }
 
-h1{
-    font-size:5.5rem;
-    font-weight:400;
-    line-height:0.95;
-    margin-bottom:16px;
-    letter-spacing:-0.05em;
+h1 {
+    font-size: 96px;
+    font-weight: normal;
+    line-height: 0.95;
+    margin: 0 0 20px 0;
 }
 
-.tagline{
-    font-size:1.8rem;
-    margin-bottom:50px;
-    letter-spacing:-0.03em;
+.subtitle {
+    font-size: 34px;
+    margin-bottom: 50px;
 }
 
-.intro{
-    font-size:1.4rem;
-    line-height:1.5;
-    max-width:750px;
-    margin-bottom:120px;
+.intro {
+    font-size: 28px;
+    line-height: 1.3;
+    max-width: 850px;
+    margin-bottom: 120px;
 }
 
-.section-title{
-    font-size:0.9rem;
-    letter-spacing:0.12em;
-    margin-bottom:40px;
+.section-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
 }
 
-.article{
-    margin-bottom:50px;
+.work-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 70px;
 }
 
-.article-title a{
-    color:#111;
-    text-decoration:none;
-    font-style:italic;
-    font-size:1.8rem;
-    line-height:1.2;
+.work-text {
+    flex: 1;
 }
 
-.article-title a:hover{
-    opacity:0.5;
+.work-title {
+    font-size: 42px;
+    line-height: 1.1;
 }
 
-.article-meta{
-    margin-top:8px;
-    font-size:0.95rem;
-    opacity:0.5;
+.work-title a {
+    color: #111;
+    text-decoration: none;
 }
 
-footer{
-    margin-top:120px;
-    opacity:0.5;
-    font-size:0.9rem;
+.work-title a:hover {
+    opacity: 0.5;
 }
 
-@media(max-width:700px){
-
-body{
-    padding:50px 25px;
+.work-meta {
+    margin-top: 10px;
+    font-size: 20px;
+    opacity: 0.6;
 }
 
-h1{
-    font-size:3.5rem;
+.work-image {
+    width: 220px;
+    flex-shrink: 0;
 }
 
-.tagline{
-    font-size:1.3rem;
+.work-image img {
+    width: 100%;
+    display: block;
 }
 
-.intro{
-    font-size:1.15rem;
-}
+@media(max-width:800px){
 
-.article-title a{
-    font-size:1.3rem;
-}
+    body {
+        padding: 25px;
+    }
+
+    h1 {
+        font-size: 58px;
+    }
+
+    .subtitle {
+        font-size: 22px;
+    }
+
+    .intro {
+        font-size: 20px;
+    }
+
+    .work-item {
+        flex-direction: column;
+    }
+
+    .work-title {
+        font-size: 28px;
+    }
 
 }
 
@@ -117,58 +131,71 @@ h1{
 <body>
 
 <nav>
-<a href="#writing">work</a>
-<a href="#">cv</a>
+<a href="#work">work</a>
+<a href="cv.html">cv</a>
 <a href="mailto:nillhashemii@gmail.com">contact</a>
+<a href="https://www.linkedin.com/feed/" target="_blank">linkedin</a>
 </nav>
 
 <h1>Nill Hashemi</h1>
 
-<div class="tagline">
+<div class="subtitle">
 Investigating Images in Transition
 </div>
 
 <div class="intro">
 Art historian, writer and researcher.
 
-Her work explores how images move across cultures, media and systems of knowledge through contemporary art, visual culture and critical writing.
+Interested in the movement of images across cultures, media and systems of knowledge through contemporary art, visual culture and critical writing.
 </div>
 
-<section id="writing">
-
-<div class="section-title">
-WRITING
+<div id="work" class="section-title">
+Work
 </div>
 
-<div class="article">
+<div class="work-item">
 
-<div class="article-title">
+<div class="work-text">
+
+<div class="work-title">
 <a href="https://www.exibart.com/arte-contemporanea/nazioni-senza-stato-alla-biennale-un-progetto-del-2003-di-hilal-e-petti-torna-attuale/" target="_blank">
 Nazioni senza Stato alla Biennale: un progetto del 2003 di Hilal e Petti torna attuale
 </a>
 </div>
 
-<div class="article-meta">
-Exibart, 2026
+<div class="work-meta">
+Exibart · 2026
 </div>
 
 </div>
 
-<div class="article">
+<div class="work-image">
+<img src="image1.jpg">
+</div>
 
-<div class="article-title">
+</div>
+
+<div class="work-item">
+
+<div class="work-text">
+
+<div class="work-title">
 <a href="https://www.exibart.com/arte-contemporanea/allassociazione-barriera-di-torino-lo-spazio-perde-lorientamento/" target="_blank">
 All'Associazione Barriera di Torino lo spazio perde l'orientamento
 </a>
 </div>
 
-<div class="article-meta">
-Exibart, 2026
+<div class="work-meta">
+Exibart · 2026
 </div>
 
 </div>
 
-</section>
+<div class="work-image">
+<img src="image2.jpg">
+</div>
+
+</div>
 
 </body>
 </html>
