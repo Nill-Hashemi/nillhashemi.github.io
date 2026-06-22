@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -6,94 +6,107 @@
 
 <title>Nill Hashemi</title>
 
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&display=swap" rel="stylesheet">
-
 <style>
 
 body{
-    background:#f8f8f5;
+    background:#f7f7f4;
     color:#111;
-    font-family:'EB Garamond', serif;
-    max-width:900px;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    max-width:1000px;
     margin:0 auto;
-    padding:120px 40px;
-}
-
-h1{
-    font-size:5rem;
-    font-weight:400;
-    margin-bottom:0.2em;
-    line-height:1;
-}
-
-.tagline{
-    font-size:2rem;
-    font-style:italic;
-    margin-bottom:3rem;
-}
-
-.bio{
-    font-size:1.4rem;
-    line-height:1.6;
-    max-width:650px;
-    margin-bottom:5rem;
+    padding:80px 40px;
 }
 
 nav{
-    margin-bottom:7rem;
+    margin-bottom:80px;
 }
 
 nav a{
-    color:#111;
     text-decoration:none;
-    margin-right:30px;
-    font-size:1.2rem;
+    color:#111;
+    margin-right:24px;
+    font-size:1rem;
 }
 
-section{
-    margin-bottom:6rem;
+nav a:hover{
+    opacity:0.5;
 }
 
-h2{
+h1{
+    font-size:5.5rem;
     font-weight:400;
-    font-size:2rem;
-    margin-bottom:2rem;
+    line-height:0.95;
+    margin-bottom:16px;
+    letter-spacing:-0.05em;
+}
+
+.tagline{
+    font-size:1.8rem;
+    margin-bottom:50px;
+    letter-spacing:-0.03em;
+}
+
+.intro{
+    font-size:1.4rem;
+    line-height:1.5;
+    max-width:750px;
+    margin-bottom:120px;
+}
+
+.section-title{
+    font-size:0.9rem;
+    letter-spacing:0.12em;
+    margin-bottom:40px;
 }
 
 .article{
-    margin-bottom:2rem;
+    margin-bottom:50px;
 }
 
-.article-title{
-    font-size:1.3rem;
+.article-title a{
+    color:#111;
+    text-decoration:none;
     font-style:italic;
+    font-size:1.8rem;
+    line-height:1.2;
+}
+
+.article-title a:hover{
+    opacity:0.5;
 }
 
 .article-meta{
-    opacity:.6;
+    margin-top:8px;
+    font-size:0.95rem;
+    opacity:0.5;
 }
 
 footer{
-    margin-top:8rem;
-    opacity:.6;
+    margin-top:120px;
+    opacity:0.5;
+    font-size:0.9rem;
 }
 
 @media(max-width:700px){
 
 body{
-padding:60px 25px;
+    padding:50px 25px;
 }
 
 h1{
-font-size:3rem;
+    font-size:3.5rem;
 }
 
 .tagline{
-font-size:1.5rem;
+    font-size:1.3rem;
 }
 
-.bio{
-font-size:1.15rem;
+.intro{
+    font-size:1.15rem;
+}
+
+.article-title a{
+    font-size:1.3rem;
 }
 
 }
@@ -103,61 +116,59 @@ font-size:1.15rem;
 
 <body>
 
+<nav>
+<a href="#writing">work</a>
+<a href="#">cv</a>
+<a href="mailto:nillhashemii@gmail.com">contact</a>
+</nav>
+
 <h1>Nill Hashemi</h1>
 
 <div class="tagline">
-Investigating Images in Transition.
+Investigating Images in Transition
 </div>
 
-<div class="bio">
-Art historian, writer and researcher with a background in film and media studies.
+<div class="intro">
+Art historian, writer and researcher.
 
-Interested in the movement of images across cultures, media and systems of knowledge through contemporary art, visual culture and critical writing.
+Her work explores how images move across cultures, media and systems of knowledge through contemporary art, visual culture and critical writing.
 </div>
 
-<nav>
-<a href="#work">Work</a>
-<a href="#">CV</a>
-<a href="mailto:nillhashemii@gmail.com">Contact</a>
-</nav>
+<section id="writing">
 
-<section id="work">
-
-<h2>Writing</h2>
+<div class="section-title">
+WRITING
+</div>
 
 <div class="article">
+
 <div class="article-title">
+<a href="https://www.exibart.com/arte-contemporanea/nazioni-senza-stato-alla-biennale-un-progetto-del-2003-di-hilal-e-petti-torna-attuale/" target="_blank">
 Nazioni senza Stato alla Biennale: un progetto del 2003 di Hilal e Petti torna attuale
+</a>
 </div>
+
 <div class="article-meta">
 Exibart, 2026
 </div>
+
 </div>
 
 <div class="article">
+
 <div class="article-title">
+<a href="https://www.exibart.com/arte-contemporanea/allassociazione-barriera-di-torino-lo-spazio-perde-lorientamento/" target="_blank">
 All'Associazione Barriera di Torino lo spazio perde l'orientamento
+</a>
 </div>
+
 <div class="article-meta">
 Exibart, 2026
 </div>
+
 </div>
 
 </section>
-
-<section>
-
-<h2>Ongoing Research</h2>
-
-<div class="bio">
-Investigating how images circulate, transform and acquire meaning across cultural contexts.
-</div>
-
-</section>
-
-<footer>
-© 2026 Nill Hashemi
-</footer>
 
 </body>
 </html>
